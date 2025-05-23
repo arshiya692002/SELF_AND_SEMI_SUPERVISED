@@ -68,14 +68,6 @@ Please download and place the `.npz` files inside a folder named `dataset/` at t
 
 ---
 
-##  Project Structure
-├── dataset/                 # Place downloaded .npz files here
-├── notebooks/               # Main Jupyter notebook
-├── docs/                    # Report and presentation
-├── requirements.txt         # Python dependencies
-└── README.md                # Project overview
----
-
 ##  Installation and Usage
 
 ```bash
