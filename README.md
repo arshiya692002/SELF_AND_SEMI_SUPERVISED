@@ -36,13 +36,14 @@ This project is a part of our **major B.Tech project** at the **Indian Institute
 
 ---
 
-##  Dataset Download Instructions
+## Dataset Download Instructions
 
-Please download and place the `.npz` files inside a folder named `dataset/` at the root level:
+Due to GitHub’s file size limits, datasets are not included in this repository.
 
-- [Download TissueMNIST (tissuemnist.npz)](https://drive.google.com/your_tissuemnist_link)
-- [Download PathMNIST (pathmnist.npz)](https://drive.google.com/your_pathmnist_link)
+Please download the following files and place them inside a `dataset/` folder at the root of this project:
 
+- [Download TissueMNIST (tissuemnist.npz)](https://zenodo.org/record/6496656/files/tissuemnist.npz?download=1)
+- [Download PathMNIST (pathmnist.npz)](https://zenodo.org/record/6496656/files/pathmnist.npz?download=1)
 ---
 
 ## Performance Comparison
@@ -67,38 +68,29 @@ Please download and place the `.npz` files inside a folder named `dataset/` at t
 - Research implementation and evaluation
 
 ---
-
-##  Installation and Usage
-
-```bash
-git clone https://github.com/arshiya692002/SELF_AND_SEMI_SUPERVISED.git
-cd SELF_AND_SEMI_SUPERVISED
-pip install -r requirements.txt
-jupyter notebook notebooks/code.ipynb
-
 ---
 
 ## Documentation
 
-- `docs/thesis_report.pdf` — Final project report  
-- `docs/ppt.pptx` — Project presentation slides
+- [docs/thesis_report.pdf](docs/thesis_report.pdf) — Final project report  
+- [docs/ppt.pptx](docs/ppt.pptx) — Project presentation slides
 
 ---
 
 ## Team Members (Major Project)
 
-- Arshiya Chutke  
-- Preeti  
-- Girisha Vashisht
+- **Arshiya Chutke**  
+- **Preeti**  
+- **Girisha Vashisht**
 
 ---
 
-##  Supervisor
+## Supervisor
 
-- Dr. Sonali Agarwal, IIIT Allahabad
+- **Dr. Sonali Agarwal**, IIIT Allahabad
 
 ---
 
-##  License
+## License
 
-This project is released under the MIT License.
+This project is released under the **MIT License**.
