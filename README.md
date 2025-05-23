@@ -4,34 +4,46 @@ Systematic benchmarking of Self-Supervised (DINO, SwAV) and Semi-Supervised (Sim
 
 This project is a part of our **major B.Tech project** at the **Indian Institute of Information Technology, Allahabad**, under the supervision of **Dr. Sonali Agarwal**. It presents an empirical comparison of advanced learning strategies for scenarios with limited labeled medical data, using TissueMNIST and PathMNIST datasets.
 
-## Project Objectives
+---
+
+##  Project Objectives
 
 - Evaluate self-supervised vs. semi-supervised learning approaches on medical imaging datasets.
 - Improve classification accuracy under limited-label settings.
 - Optimize model configurations for practical healthcare scenarios.
 
-## Models Implemented
+---
+
+##  Models Implemented
 
 ### Self-Supervised Learning
+
 - **DINO**: Uses a student-teacher architecture with exponential moving average updates.
 - **SwAV**: Learns representations by clustering and swapping assignments between augmented views.
 
 ### Semi-Supervised Learning
-- **SimMatchV2**: Integrates classification, consistency regularization, and similarity-based learning for improved semi-supervised training.
 
-## Datasets Used
+- **SimMatchV2**: Combines classification, consistency regularization, and similarity-based alignment.
+
+---
+
+##  Datasets Used
 
 - **TissueMNIST**: Histological colorectal cancer tissue images.
 - **PathMNIST**: Pathology images from colorectal cancer studies.
 
-> These datasets are not included in the repository due to GitHub’s file size limits.
+>  These datasets are not included in the repository due to GitHub's 100 MB size limit.
 
-## 📥 Dataset Download Instructions
+---
 
-Please download and place the `.npz` files in a folder named `dataset/` inside the project root:
+##  Dataset Download Instructions
+
+Please download and place the `.npz` files inside a folder named `dataset/` at the root level:
 
 - [Download TissueMNIST (tissuemnist.npz)](https://drive.google.com/your_tissuemnist_link)
 - [Download PathMNIST (pathmnist.npz)](https://drive.google.com/your_pathmnist_link)
+
+---
 
 ## Performance Comparison
 
@@ -44,22 +56,27 @@ Please download and place the `.npz` files in a folder named `dataset/` inside t
 | PathMNIST    | Self-Supervised   | DINO         | 82.52              | 88.00                  | +5.48  |
 | PathMNIST    | Self-Supervised   | SwAV         | 77.90              | 78.74                  | +0.84  |
 
-## Skills Demonstrated
+---
 
-- Advanced Machine Learning (Self-SL, Semi-SL)
-- PyTorch implementation and training
-- Dataset augmentation and optimization
-- Medical image analysis and visualization
-- Research analysis and result benchmarking
+##  Skills Demonstrated
 
-## Project Structure
+- Deep Learning: Self-Supervised and Semi-Supervised Techniques
+- PyTorch-based model development
+- Image preprocessing and augmentation
+- Visualization and benchmarking
+- Research implementation and evaluation
+
+---
+
+##  Project Structure
 ├── dataset/                 # Place downloaded .npz files here
-├── notebooks/               # Main notebook for model implementation
-├── docs/                    # Project report and presentation
+├── notebooks/               # Main Jupyter notebook
+├── docs/                    # Report and presentation
 ├── requirements.txt         # Python dependencies
-└── README.md                # This file
+└── README.md                # Project overview
+---
 
-## Installation and Usage
+##  Installation and Usage
 
 ```bash
 git clone https://github.com/arshiya692002/SELF_AND_SEMI_SUPERVISED.git
@@ -67,18 +84,29 @@ cd SELF_AND_SEMI_SUPERVISED
 pip install -r requirements.txt
 jupyter notebook notebooks/code.ipynb
 
-**Documentation**
-	•	docs/thesis_report.pdf: Final project report
-	•	docs/ppt.pptx: Project presentation slides
+---
 
-**Team Members (Major Project)**
-	•	Arshiya Chutke
-	•	Preeti
-	•	Girisha Vashisht
+## Documentation
 
-**Supervisor**
-	•	Dr. Sonali Agarwal, IIIT Allahabad
+- `docs/thesis_report.pdf` — Final project report  
+- `docs/ppt.pptx` — Project presentation slides
 
-**License**
+---
+
+## Team Members (Major Project)
+
+- Arshiya Chutke  
+- Preeti  
+- Girisha Vashisht
+
+---
+
+##  Supervisor
+
+- Dr. Sonali Agarwal, IIIT Allahabad
+
+---
+
+##  License
 
 This project is released under the MIT License.
